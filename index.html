@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-US Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Personal Portfolio</title>
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <script src="https://kit.fontawesome.com/8718d18000.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header"> 
+<div class="main">
+   <nav class="navbar">
+      
+         <h2 class="logo">B<span style="color:#fff;">anele</span><i class="fa-solid fa-crown"></i></h2>
+      
+         <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+         </ul>
+         <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      
+      <div class="header-text">
+         <p>Mechanical Engineer</p>
+         <h1>Hi, I am <span>Banele</span> Cele an<br> aspiring Data Engineer</h1>
+      </div>
+   </nav>
+   
+</div>  
+</div>
+<!--------------------about-------------------->
+<div id="about">
+   <div class="main">
+      <div class="row">
+         <div class="about-col-1">
+            <img src="images/user.jpg">
+         </div>
+         <div class="about-col-2">
+            <h1 class="sub-title">About Banele</h1>
+            <p>I am one step away from being rich, all I need now is the money. Before studying engineering, if someone asked me what 1+1 is, I would have said "2". Now, I'd say "I am pretty sure it's 2, but we'd better make it 3 just to be safe." Nam viverra eros sit amet nibh consequat placerat. Ut tempor erat in posuere facilisis. Praesent scelerisque velit et lobortis facilisis. </p>
+            
+            <div class="tab-titles">
+               <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+               <p class="tab-links" onclick="opentab('experience')">Experience</p>
+               <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+               <ul>
+                  <li><span>Draughting</span><br>Detailed Mechanical Drawings</li>
+                  <li><span>Web Development</span><br>Web app Development</li>
+                  <li><span>App Development</span><br>Building Android/IOS apps</li>
+               </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+               <ul>
+                  <li><span>2023 - Current</span><br>Technical support at Sentech</li>
+                  <li><span>2020 - 2021</span><br>Team lead BBD</li>
+                  <li><span>2018 - 2020</span><br>Mechanical technician at MCE</li>
+                  <li><span>2016 - 2018</span><br>Internship at StarApp LLC.</li>
+               </ul>
+            </div>
+            <div class="tab-contents" id="education">
+               <ul>
+                  <li><span>2024</span><br>Software Development from DDNA.</li>
+                  <li><span>2023</span><br>AD:Mechanical engineering from Unisa.</li>
+                  <li><span>2020</span><br>ND:Mechanical Engineering from DUT.</li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<!--------------------services------------------->
+<div id="services">
+   <div class="main">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+         <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mi luctus, suscipit nisl non, eleifend odio.</p>
+            <a href="#">Learn more</a>
+         </div>
+         <div>
+            <i class="fa-solid fa-gears"></i>
+            <h2>Mechanical Design</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mi luctus, suscipit nisl non, eleifend odio.</p>
+            <a href="#">Learn more</a>
+         </div>
+         <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App Design</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mi luctus, suscipit nisl non, eleifend odio.</p>
+            <a href="#">Learn more</a>
+         </div>
+      </div>
+   </div>
+</div>
+<!--------------------Portfolio-------------------->
+<div id="portfolio">
+   <div class="main">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+         <div class="work">
+            <img src="images/work-1.png">
+            <div class="layer">
+               <h3>Social Media App</h3>
+               <p>The app connects you to the talented people around the world. 
+                  Download it from play store</p>
+                  <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+         </div>
+         <div class="work">
+            <img src="images/work-2.jpg">
+            <div class="layer">
+               <h3>CAD Design Software</h3>
+               <p>The app develops and markets solid modeling computer-aided design, computer-aided engineering, 3D CAD design and collaboration, analysis, and product data management software. 
+                  Download it from play store</p>
+                  <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+         </div>
+         <div class="work">
+            <img src="images/work-3.png">
+            <div class="layer">
+               <h3>Online Shopping App</h3>
+               <p>The app connects you to the talented people around the world. 
+                  Download it from play store</p>
+                  <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+         </div>
+      </div>
+      <a href="#" class="btn">See more</a>
+   </div>
+</div>
+<!-----------------Contact------------------>
+<div id="contact">
+   <div class="main">
+      <div class="row">
+         <div class="contact-left">
+            <h1 class="sub-titles">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>BaneleCele7@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>0847189630</p>
+            <div class="social-icons">
+               <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+               <a href="https://twitter.com/?lang=en"><i class="fa-brands fa-twitter-square"></i></a>
+               <a href="https://www.instagram.com/vico15?utm_source=qr&r=nametag"><i class="fa-brands fa-instagram"></i></a>
+               <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+         </div>
+         <div class="contact-right">
+            <form name="submit-to-google-sheet">
+               <input type="text" name="Name" placeholder="Your Name" required>
+               <input type="email" name="Email" placeholder="Your Email" required>
+               <textarea name="Message" rows="7" placeholder="Your Message"></textarea>
+               <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+         </div>
+      </div>
+   </div>
+   <span class="body1">
+      <div class="container">
+         <h1>Weather Forecast</h1>
+         <div id="location"></div>
+         <div id="weather"></div>
+      </div>
+   </span>
+   <div class="copyright">
+      <p>Copyright © Banele. Made with <i class="fa-solid fa-heart"></i> by Banele Cele</p>
+   </div>
+</div>
+
+
+<!---------------Javascript--------------->
+<script>
+
+   var tablinks = document.getElementsByClassName("tab-links");
+   var tabcontents = document.getElementsByClassName("tab-contents");
+   
+   function opentab(tabname){
+      for(tablink of tablinks){
+         tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+         tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+   }
+
+</script>
+<script>
+
+   var sidemenu = document.getElementById("sidemenu");
+
+   function openmenu(){
+      sidemenu.style.right = "0";
+   }
+   function closemenu(){
+      sidemenu.style.right = "-200px";
+   }
+
+</script>
+<script>
+   const scriptURL = 'https://script.google.com/macros/s/AKfycby527_91v-KAAkSHBKvlj8NUdF0X6AIjgwmCH4pZQqJurxKCRvgVlj6uIPWhBGL2E_z-A/exec'
+   const form = document.forms['submit-to-google-sheet']
+   const msg = document.getElementById("msg")
+ 
+   form.addEventListener('submit', e => {
+     e.preventDefault()
+     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+       .then(response => {
+         msg.innerHTML = "Message sent successfully"
+         setTimeout(function(){
+            msg.innerHTML = ""
+         },5000)
+         form.reset()
+       })
+       .catch(error => console.error('Error!', error.message))
+   })
+ </script>
+ <script>
+   document.addEventListener('DOMContentLoaded', getWeather);
+
+function getWeather() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(fetchWeather, showError);
+    } else {
+        document.getElementById('location').innerHTML = "Geolocation is not supported by this browser.";
+    }
+}
+
+function fetchWeather(position) {
+    const apiKey = '965d93d06c8973a7451bc924876d6ff2';
+    const latitude = position.coords.latitude;
+    const longitude = position.coords.longitude;
+
+    const apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${apiKey}`;
+
+    fetch(apiUrl)
+        .then(response => response.json())
+        .then(data => {
+            const locationElement = document.getElementById('location');
+            const weatherElement = document.getElementById('weather');
+
+            const location = data.name + ', ' + data.sys.country;
+            const temperature = Math.round(data.main.temp - 273.15); // Convert from Kelvin to Celsius
+            const description = data.weather[0].description;
+
+            locationElement.innerHTML = location;
+            weatherElement.innerHTML = `Temperature: ${temperature}°C, ${description}`;
+        })
+        .catch(error => {
+            console.error('Error fetching weather data:', error);
+        });
+}
+
+function showError(error) {
+    const locationElement = document.getElementById('location');
+    
+    switch(error.code) {
+        case error.PERMISSION_DENIED:
+            locationElement.innerHTML = "User denied the request for Geolocation.";
+            break;
+        case error.POSITION_UNAVAILABLE:
+            locationElement.innerHTML = "Location information is unavailable.";
+            break;
+        case error.TIMEOUT:
+            locationElement.innerHTML = "The request to get user location timed out.";
+            break;
+        case error.UNKNOWN_ERROR:
+            locationElement.innerHTML = "An unknown error occurred.";
+            break;
+    }
+}
+
+ </script>
+</body>
+</html>
