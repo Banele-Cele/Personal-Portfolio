@@ -13,7 +13,7 @@
 <div class="main">
    <nav class="navbar">
       
-         <h2 class="logo">B<span style="color:#fff;">anele</span><i class="fa-solid fa-crown"></i></h2>
+         <h2 class="logo">B<span style="color:#fff;">a</span>n<span style="color:#fff;">e</span>l<span style="color:#fff;">e</span><span></span><i class="fa-solid fa-crown"></i></h2>
       
          <ul id="sidemenu">
             <li><a href="#header">Home</a></li>
@@ -26,8 +26,9 @@
          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
       
       <div class="header-text">
-         <p>Mechanical Engineer</p>
-         <h1>Hi, I am <span>Banele</span> Cele an<br> aspiring Data Engineer</h1>
+         <p>Problem Solver</p>
+         <h1>Hi, I am <span class="auto-input"></span></h1>
+         <p><h5>I solve problems, I make things better. Problems are not obstacles, problems are invitations, problems are opportunities, they are a chance to make things better.</h5></p>
       </div>
    </nav>
    
@@ -107,7 +108,7 @@
       <h1 class="sub-title">My Work</h1>
       <div class="work-list">
          <div class="work">
-            <img src="images/work-1.png">
+            <img class="img1" src="images/work-1.png">
             <div class="layer">
                <h3>Social Media App</h3>
                <p>The app connects you to the talented people around the world. 
@@ -116,7 +117,7 @@
             </div>
          </div>
          <div class="work">
-            <img src="images/work-2.jpg">
+            <img class="img2" src="images/work-2.jpg">
             <div class="layer">
                <h3>CAD Design Software</h3>
                <p>The app develops and markets solid modeling computer-aided design, computer-aided engineering, 3D CAD design and collaboration, analysis, and product data management software. 
@@ -125,7 +126,7 @@
             </div>
          </div>
          <div class="work">
-            <img src="images/work-3.png">
+            <img class="img3 " src="images/work-3.png">
             <div class="layer">
                <h3>Online Shopping App</h3>
                <p>The app connects you to the talented people around the world. 
@@ -178,6 +179,15 @@
 
 
 <!---------------Javascript--------------->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+   var typed = new Typed(".auto-input", {
+      strings: ["Banele Cele", "a Mechanical Engineer", "a Software Developer"],
+      typeSpeed: 100,
+      backSpeed: 100,
+      loop: true
+   })
+</script>
 <script>
 
    var tablinks = document.getElementsByClassName("tab-links");
